@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "iqkeyboardmanager",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/hackiftekhar/IQKeyboardManager.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "0ea3febb36cfcec2afb5841fd8809a9c0fa545b3"
+      }
+    },
+    {
+      "identity" : "toaster",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/devxoul/Toaster.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "a5aacb802cc6c243c3283899529a11f7b0f2ab53"
+      }
+    }
+  ],
+  "version" : 2
+}

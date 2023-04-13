@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		26440F7029E79E6C008420E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26440F6F29E79E6C008420E3 /* AppDelegate.swift */; };
 		26440F7229E79E6C008420E3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26440F7129E79E6C008420E3 /* SceneDelegate.swift */; };
-		26440F7429E79E6C008420E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26440F7329E79E6C008420E3 /* ViewController.swift */; };
+		26440F7429E79E6C008420E3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26440F7329E79E6C008420E3 /* HomeViewController.swift */; };
 		26440F7729E79E6C008420E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26440F7529E79E6C008420E3 /* Main.storyboard */; };
 		26440F7929E79E6D008420E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26440F7829E79E6D008420E3 /* Assets.xcassets */; };
 		26440F7C29E79E6D008420E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26440F7A29E79E6D008420E3 /* LaunchScreen.storyboard */; };
+		26440F8529E7AED0008420E3 /* UserBalanceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26440F8329E7AED0008420E3 /* UserBalanceTableViewCell.swift */; };
+		26440F8629E7AED0008420E3 /* UserBalanceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26440F8429E7AED0008420E3 /* UserBalanceTableViewCell.xib */; };
+		26440F8829E7AFA6008420E3 /* SelectAmountCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26440F8729E7AFA6008420E3 /* SelectAmountCollectionViewCell.swift */; };
+		26440F8A29E7C601008420E3 /* QRCodeScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26440F8929E7C601008420E3 /* QRCodeScannerViewController.swift */; };
+		26440F8E29E7D278008420E3 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 26440F8D29E7D278008420E3 /* IQKeyboardManagerSwift */; };
+		26440F9729E7D713008420E3 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26440F9629E7D713008420E3 /* UserModel.swift */; };
+		26440F9D29E7DDFC008420E3 /* Toaster in Frameworks */ = {isa = PBXBuildFile; productRef = 26440F9C29E7DDFC008420E3 /* Toaster */; };
+		26440FA029E7DE21008420E3 /* ToastUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26440F9F29E7DE21008420E3 /* ToastUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		26440F6C29E79E6C008420E3 /* Payment-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Payment-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26440F6F29E79E6C008420E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		26440F7129E79E6C008420E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		26440F7329E79E6C008420E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		26440F7329E79E6C008420E3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		26440F7629E79E6C008420E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		26440F7829E79E6D008420E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26440F7B29E79E6D008420E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		26440F7D29E79E6D008420E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26440F8329E7AED0008420E3 /* UserBalanceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserBalanceTableViewCell.swift; sourceTree = "<group>"; };
+		26440F8429E7AED0008420E3 /* UserBalanceTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserBalanceTableViewCell.xib; sourceTree = "<group>"; };
+		26440F8729E7AFA6008420E3 /* SelectAmountCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectAmountCollectionViewCell.swift; sourceTree = "<group>"; };
+		26440F8929E7C601008420E3 /* QRCodeScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeScannerViewController.swift; sourceTree = "<group>"; };
+		26440F9629E7D713008420E3 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		26440F9F29E7DE21008420E3 /* ToastUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +45,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26440F8E29E7D278008420E3 /* IQKeyboardManagerSwift in Frameworks */,
+				26440F9D29E7DDFC008420E3 /* Toaster in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +72,109 @@
 		26440F6E29E79E6C008420E3 /* Payment-App */ = {
 			isa = PBXGroup;
 			children = (
-				26440F6F29E79E6C008420E3 /* AppDelegate.swift */,
-				26440F7129E79E6C008420E3 /* SceneDelegate.swift */,
-				26440F7329E79E6C008420E3 /* ViewController.swift */,
-				26440F7529E79E6C008420E3 /* Main.storyboard */,
-				26440F7829E79E6D008420E3 /* Assets.xcassets */,
-				26440F7A29E79E6D008420E3 /* LaunchScreen.storyboard */,
+				26440FA129E7F473008420E3 /* AppDelegates */,
+				26440FA229E7F47D008420E3 /* Storyboars */,
+				26440F8F29E7D687008420E3 /* ViewControllers */,
+				26440FA329E7F489008420E3 /* AppHelpers */,
+				26440F9E29E7DE17008420E3 /* Helper */,
 				26440F7D29E79E6D008420E3 /* Info.plist */,
+				26440F9529E7D704008420E3 /* Models */,
 			);
 			path = "Payment-App";
+			sourceTree = "<group>";
+		};
+		26440F8F29E7D687008420E3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				26440F9129E7D6AE008420E3 /* HomeVC */,
+				26440F9229E7D6C0008420E3 /* QR Code VC */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		26440F9029E7D6A1008420E3 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				26440F9429E7D6E0008420E3 /* Collection View Cells */,
+				26440F9329E7D6D7008420E3 /* Table View Cells */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		26440F9129E7D6AE008420E3 /* HomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				26440F7329E79E6C008420E3 /* HomeViewController.swift */,
+				26440F9029E7D6A1008420E3 /* Cells */,
+			);
+			path = HomeVC;
+			sourceTree = "<group>";
+		};
+		26440F9229E7D6C0008420E3 /* QR Code VC */ = {
+			isa = PBXGroup;
+			children = (
+				26440F8929E7C601008420E3 /* QRCodeScannerViewController.swift */,
+			);
+			path = "QR Code VC";
+			sourceTree = "<group>";
+		};
+		26440F9329E7D6D7008420E3 /* Table View Cells */ = {
+			isa = PBXGroup;
+			children = (
+				26440F8329E7AED0008420E3 /* UserBalanceTableViewCell.swift */,
+				26440F8429E7AED0008420E3 /* UserBalanceTableViewCell.xib */,
+			);
+			path = "Table View Cells";
+			sourceTree = "<group>";
+		};
+		26440F9429E7D6E0008420E3 /* Collection View Cells */ = {
+			isa = PBXGroup;
+			children = (
+				26440F8729E7AFA6008420E3 /* SelectAmountCollectionViewCell.swift */,
+			);
+			path = "Collection View Cells";
+			sourceTree = "<group>";
+		};
+		26440F9529E7D704008420E3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				26440F9629E7D713008420E3 /* UserModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		26440F9E29E7DE17008420E3 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				26440F9F29E7DE21008420E3 /* ToastUtils.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		26440FA129E7F473008420E3 /* AppDelegates */ = {
+			isa = PBXGroup;
+			children = (
+				26440F6F29E79E6C008420E3 /* AppDelegate.swift */,
+				26440F7129E79E6C008420E3 /* SceneDelegate.swift */,
+			);
+			path = AppDelegates;
+			sourceTree = "<group>";
+		};
+		26440FA229E7F47D008420E3 /* Storyboars */ = {
+			isa = PBXGroup;
+			children = (
+				26440F7529E79E6C008420E3 /* Main.storyboard */,
+			);
+			path = Storyboars;
+			sourceTree = "<group>";
+		};
+		26440FA329E7F489008420E3 /* AppHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				26440F7829E79E6D008420E3 /* Assets.xcassets */,
+				26440F7A29E79E6D008420E3 /* LaunchScreen.storyboard */,
+			);
+			path = AppHelpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +193,10 @@
 			dependencies = (
 			);
 			name = "Payment-App";
+			packageProductDependencies = (
+				26440F8D29E7D278008420E3 /* IQKeyboardManagerSwift */,
+				26440F9C29E7DDFC008420E3 /* Toaster */,
+			);
 			productName = "Payment-App";
 			productReference = 26440F6C29E79E6C008420E3 /* Payment-App.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +225,10 @@
 				Base,
 			);
 			mainGroup = 26440F6329E79E6C008420E3;
+			packageReferences = (
+				26440F8C29E7D278008420E3 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+				26440F9B29E7DDFC008420E3 /* XCRemoteSwiftPackageReference "Toaster" */,
+			);
 			productRefGroup = 26440F6D29E79E6C008420E3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				26440F7C29E79E6D008420E3 /* LaunchScreen.storyboard in Resources */,
+				26440F8629E7AED0008420E3 /* UserBalanceTableViewCell.xib in Resources */,
 				26440F7929E79E6D008420E3 /* Assets.xcassets in Resources */,
 				26440F7729E79E6C008420E3 /* Main.storyboard in Resources */,
 			);
@@ -138,9 +257,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26440F7429E79E6C008420E3 /* ViewController.swift in Sources */,
+				26440F8829E7AFA6008420E3 /* SelectAmountCollectionViewCell.swift in Sources */,
+				26440F9729E7D713008420E3 /* UserModel.swift in Sources */,
+				26440F7429E79E6C008420E3 /* HomeViewController.swift in Sources */,
+				26440F8529E7AED0008420E3 /* UserBalanceTableViewCell.swift in Sources */,
 				26440F7029E79E6C008420E3 /* AppDelegate.swift in Sources */,
 				26440F7229E79E6C008420E3 /* SceneDelegate.swift in Sources */,
+				26440F8A29E7C601008420E3 /* QRCodeScannerViewController.swift in Sources */,
+				26440FA029E7DE21008420E3 /* ToastUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +482,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		26440F8C29E7D278008420E3 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		26440F9B29E7DDFC008420E3 /* XCRemoteSwiftPackageReference "Toaster" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devxoul/Toaster.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		26440F8D29E7D278008420E3 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 26440F8C29E7D278008420E3 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+		26440F9C29E7DDFC008420E3 /* Toaster */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 26440F9B29E7DDFC008420E3 /* XCRemoteSwiftPackageReference "Toaster" */;
+			productName = Toaster;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 26440F6429E79E6C008420E3 /* Project object */;
 }
